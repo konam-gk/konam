@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\konamTest\konamTest\beam_2n.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\beam_container.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\cable_container.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\circle.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\concrete.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\constants.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\constraints.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\cross_section.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\drucker_prager.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\elastic_material.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\global_system_definition.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\hexahedron.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\hexahedron_gauss_legendre_integration_points.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\hexahedron_shape_functions.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\hexahedron_shape_functions_derivatives.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\kaNew.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\konam_array.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\line.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\line_gauss_legendre_integration_points.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\line_gauss_lobatto_integration_points.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\line_shape_functions.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\line_shape_functions_derivatives.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\material.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\mohr_coulomb.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\node.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\OBJ_file.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\point_load.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\quadrangle.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\quadrangle_gauss_legendre_integration_points.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\quadrangle_shape_functions.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\quadrangle_shape_functions_derivatives.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\rectangle.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\rsteel.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\selements.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\sline.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\sline_container.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\spoint.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\tensor_utilities.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\triangle.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\triangle_gauss_legendre_integration_points.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\triangle_shape_functions.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\triangle_shape_functions_derivatives.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\truss_2n.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\truss_2n_sline.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\truss_container.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\vertex.h" />
+    <ClInclude Include="..\..\..\konamTest\konamTest\von_mises.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\konamTest\konamTest\circle.cpp" />
+    <ClCompile Include="..\..\..\konamTest\konamTest\concrete.cpp" />
+    <ClCompile Include="..\..\..\konamTest\konamTest\cross_section.cpp" />
+    <ClCompile Include="..\..\..\konamTest\konamTest\drucker_prager.cpp" />
+    <ClCompile Include="..\..\..\konamTest\konamTest\elastic_material.cpp" />
+    <ClCompile Include="..\..\..\konamTest\konamTest\material.cpp" />
+    <ClCompile Include="..\..\..\konamTest\konamTest\mohr_coulomb.cpp" />
+    <ClCompile Include="..\..\..\konamTest\konamTest\rectangle.cpp" />
+    <ClCompile Include="..\..\..\konamTest\konamTest\rsteel.cpp" />
+    <ClCompile Include="..\..\..\konamTest\konamTest\Source.cpp" />
+    <ClCompile Include="..\..\..\konamTest\konamTest\von_mises.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{974a4411-6640-4cfa-a316-9f1a6f6e2751}</ProjectGuid>
+    <RootNamespace>konam</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
